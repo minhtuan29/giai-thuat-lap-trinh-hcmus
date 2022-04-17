@@ -2,25 +2,21 @@
 Bài toán 1: viết hàm f(x,n) = x^1/1 + x^2/2 + ... x^n/n  
 Giải:
 ```js
-
-function fraction( numerator, denominator){
-    return numerator/denominator;
+function phân_số( tử_số, mẫu_số){
+    return tử_số/mẫu_số
 }
 
 
-function f(x, range){
-    let sum = 0;
+function f(x, hạng_cuối){
+    let tổng_dồn = 0
   
-    let numerator = 1;
-    for(let itor = 1; itor <= range; itor++){
-      numerator *= x;
-      sum += fraction(numerator=numerator, denominator = itor)
+    let bội_dần_đều = 1
+    for(let con_chạy = 1; con_chạy <= hạng_cuối; con_chạy++){
+      bội_dần_đều *= x
+      tổng_dồn += phân_số(tử_số=bội_dần_đều, mẫu_số=con_chạy)
     }
   
-    console.log(sum);
-    return sum;
+    console.log(tổng_dồn)
+    return tổng_dồn
 }
-
-
-f(x=2, range=5)
 ```
