@@ -14,10 +14,10 @@ function phân_số( tử_số, mẫu_số){
 function f(x, hạng_cuối){
     let tổng = 0
   
-    let bội_dần_đều = 1
+    let bội_dần_đều_truy_hồi = 1
     for(let con_chạy = 1; con_chạy <= hạng_cuối; con_chạy++){
-      bội_dần_đều *= x
-      tổng += phân_số(tử_số=bội_dần_đều, mẫu_số=con_chạy)
+      bội_dần_đều_truy_hồi *= x
+      tổng += phân_số(tử_số=bội_dần_đều_truy_hồi, mẫu_số=con_chạy)
     }
   
     return tổng
