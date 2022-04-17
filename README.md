@@ -12,10 +12,10 @@ function f(x, range){
     let sum = 0;
   
     let numerator = 1;
-   for(let itor = 1; itor <= range; itor++){
+    for(let itor = 1; itor <= range; itor++){
       numerator *= x;
       sum += fraction(numerator=numerator, denominator = itor)
-  }
+    }
   
     console.log(sum);
     return sum;
