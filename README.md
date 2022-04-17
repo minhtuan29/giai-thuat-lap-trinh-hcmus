@@ -16,7 +16,22 @@ function f(x, hạng_cuối){
       tổng += phân_số(tử_số=bội_dần_đều, mẫu_số=con_chạy)
     }
   
-    console.log(tổng)
     return tổng
 }
+```
+
+```python
+
+def phân_số(tử, mẫu):
+  return tử/mẫu
+
+def f(x, hạng_cuối):
+  tổng = 0
+  
+  bội_dần_đều = 1
+  for con_chạy in range(1, hạng_cuối+1):
+    bội_dần_đều *= x
+    tổng += phân_số(tử=bội_dần_đều, mẫu=con_chạy)
+    
+  return tổng
 ```
