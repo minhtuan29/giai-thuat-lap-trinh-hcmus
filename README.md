@@ -1,5 +1,5 @@
 # Chương 1 : kỹ thuật xử lý lặp
-Dạng toán : truy hồi <-> tổng quát
+Dạng toán : truy hồi <-> tổng quát  
 Truy hồi nghĩa là kết quả thứ i sẽ tận dụng lại kết quả thứ i-1  
 Tổng quát nghĩa là tìm ra công thức tổng quát để tính, không cần truy hồi
 
