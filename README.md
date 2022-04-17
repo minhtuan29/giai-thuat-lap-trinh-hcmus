@@ -8,15 +8,15 @@ function phân_số( tử_số, mẫu_số){
 
 
 function f(x, hạng_cuối){
-    let tổng_dồn = 0
+    let tổng = 0
   
     let bội_dần_đều = 1
     for(let con_chạy = 1; con_chạy <= hạng_cuối; con_chạy++){
       bội_dần_đều *= x
-      tổng_dồn += phân_số(tử_số=bội_dần_đều, mẫu_số=con_chạy)
+      tổng += phân_số(tử_số=bội_dần_đều, mẫu_số=con_chạy)
     }
   
-    console.log(tổng_dồn)
-    return tổng_dồn
+    console.log(tổng)
+    return tổng
 }
 ```
