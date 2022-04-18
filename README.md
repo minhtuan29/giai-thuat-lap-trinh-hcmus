@@ -8,7 +8,7 @@ Truy hồi nghĩa là kết quả thứ i sẽ tận dụng lại kết quả th
 Tổng quát nghĩa là tìm ra công thức tổng quát để tính, không cần truy hồi
 
 Bài toán 1: viết hàm f(x,n) = x^1/1 + x^2/2 + ... x^n/n  
-Giải: dùng truy hồi, hãy tự giải bài tập trước khi xem bài giải phía dưới này  
+Giải: dùng truy hồi, hãy tự giải bài tập trước khi xem bài giải phía dưới này nghen  
 ```js
 function phân_số( tử_số, mẫu_số){
     return tử_số/mẫu_số
