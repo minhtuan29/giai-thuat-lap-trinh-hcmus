@@ -1,4 +1,6 @@
-# Chương 1 : kỹ thuật xử lý lặp
+# Giới thiệu
+Bài học này viết bằng ngôn ngữ JavaSscript, được xây dựng sao cho bạn đọc có thể hiểu ngay dù không biết JavaScript. Đóng góp nếu bạn thấy hữu ích
+## Chương 1 : kỹ thuật xử lý lặp
 Dạng toán : truy hồi <-> tổng quát  
 Truy hồi nghĩa là kết quả thứ i sẽ tận dụng lại kết quả thứ i-1, nhằm tránh CPU tính toán lại    
 Tổng quát nghĩa là tìm ra công thức tổng quát để tính, không cần truy hồi
