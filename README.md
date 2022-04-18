@@ -1,6 +1,6 @@
 # Chương 1 : kỹ thuật xử lý lặp
 Dạng toán : truy hồi <-> tổng quát  
-Truy hồi nghĩa là kết quả thứ i sẽ tận dụng lại kết quả thứ i-1  
+Truy hồi nghĩa là kết quả thứ i sẽ tận dụng lại kết quả thứ i-1, nhằm tránh CPU tính toán lại    
 Tổng quát nghĩa là tìm ra công thức tổng quát để tính, không cần truy hồi
 
 Bài toán 1: viết hàm f(x,n) = x^1/1 + x^2/2 + ... x^n/n  
